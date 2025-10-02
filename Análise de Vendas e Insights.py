@@ -1,4 +1,7 @@
 import sqlite3
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
 
 conexao = sqlite3.connect('dados_vendas.db')
 cursor = conexao.cursor()
@@ -35,8 +38,6 @@ INSERT INTO vendas1 (data_venda, produto, categoria, valor_venda) VALUES
 
 conexao.commit()
 
-import pandas as pd
-
 df_vendas = pd.read_sql_query("SELECT * FROM vendas1", conexao)
 
 print(df_vendas.head())
@@ -60,9 +61,6 @@ print(totais_mes)
 # Produto mais vendido
 top_produto = df_vendas.groupby("produto")["valor_venda"].sum().sort_values(ascending=False).head(5)
 print(top_produto)
-
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Vendas por categoria
 totais_categoria.plot(kind="bar", title="Total de Vendas por Categoria")
