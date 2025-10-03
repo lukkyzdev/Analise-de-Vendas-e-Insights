@@ -1,4 +1,4 @@
-# <img align="center" alt="Fontes-Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> ATIVIDADE PRÁTICA - Análise de Vendas e Insights <img align="center" alt="Fontes-Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> 
+# ATIVIDADE PRÁTICA - Análise de Vendas e Insights <img align="center" alt="Fontes-Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> 
 
 ---
 
