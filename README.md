@@ -14,7 +14,6 @@ em um banco de dados SQLite, e você utilizará a biblioteca Pandas para manipul
 esses dados, além de gerar visualizações utilizando Matplotlib e Seaborn.
 
 ㅤ
-ㅤ
 
 ### Passo 1: Conectar ao banco de dados SQLite e criar uma tabela
 
